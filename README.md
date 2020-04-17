@@ -1,6 +1,6 @@
 # miniflux-init-db
 
-[`miniflux-init-db`](https://github.com/bwolf/miniflux-init-db) is a simple init container for [Miniflux](https://miniflux.app) that create a database and the `hstore` extension.
+[`miniflux-init-db`](https://github.com/bwolf/miniflux-init-db) is a simple init container for [Miniflux](https://miniflux.app) that creates the database, user and extensions for Miniflux.
 
 Motivation: Miniflux will not (by design) create the database, user and extensions. `miniflux-init-db` does this, enabling to deploy Miniflux fully automatic to Kubernetes.
 
