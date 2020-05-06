@@ -6,7 +6,7 @@ Motivation: Miniflux will not (by design) create the database, user and extensio
 
 
 ## Container Images
-Please find container images on [docker hub](https://hub.docker.com/r/bwolf/gandi-dns-update).
+Please find container images on [docker hub](https://hub.docker.com/r/bwolf/miniflux-init-db).
 
 
 ## Example Use
